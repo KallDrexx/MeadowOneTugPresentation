@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80
+background: /img/intro-background.avif
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -8,14 +8,42 @@ info: |
 drawings:
   persist: false
 transition: slide-left
-css: unocss
+# css: unocss
+# colorSchema: 'light'
 title: .Net For Embedded Development
 ---
 
 # .Net For Embedded Development
 
 ---
-transition: fade-out
----
 
 # Who Am I?
+
+## Matthew Shapiro
+
+* Senior Software Engineer at Microsoft
+* Works on high scale, real-time media systems.
+* Built open-source media libraries and servers.
+* Passionate about dev workflows and tooling.
+
+---
+
+# What Is Embedded Development?
+
+* Discipline of software development focused on low level hardware
+* Direct integration with hardware
+* Usually lower specs than you are used to
+
+---
+layout: two-cols
+---
+
+# Arduino
+
+![Arduino](/img/arduino.jpg)
+
+::right::
+
+# Esp32
+
+![Esp32](/img/esp32.jpg)
