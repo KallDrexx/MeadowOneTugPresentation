@@ -1,5 +1,5 @@
 ---
-theme: seriph
+theme: bricks 
 background: /img/intro-background.avif
 class: text-center
 highlighter: shiki
@@ -7,9 +7,9 @@ lineNumbers: false
 info: |
 drawings:
   persist: false
-transition: slide-left
+# transition: slide-left
 # css: unocss
-# colorSchema: 'light'
+colorSchema: 'light'
 title: .Net For Embedded Development
 ---
 
@@ -195,3 +195,11 @@ Peripherals to the rescue!
 # How To Communicate With A Peripheral
 
 (Image with complicated back and forth with acknowledgements)
+
+<!-- This is slow and complicated for each bit -->
+
+---
+
+# Serial Peripheral Interface
+
+![spi](/img/SPI_three_slaves.png)
