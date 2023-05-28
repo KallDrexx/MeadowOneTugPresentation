@@ -1,6 +1,6 @@
 ---
-theme: bricks 
-background: /img/intro-background.avif
+theme: seriph 
+background: /intro-background.avif
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -9,7 +9,7 @@ drawings:
   persist: false
 # transition: slide-left
 # css: unocss
-colorSchema: 'light'
+# colorSchema: 'light'
 title: .Net For Embedded Development
 ---
 
@@ -39,40 +39,35 @@ title: .Net For Embedded Development
 
 # Arduino and ESP32
 
-(Image of both chips)
-
-<!-- 
-* Both are common names in embedded
-* Arduino mostly used in hobbyist space
- -->
+* Arduiono originally created for teaching in 2005
+* Low cost and simple tooling stack
+* Mostly used in hobbyist space
+* Arduinos usually 16Mhz, 2KB RAM
+* ESP32 arrived in 2016
+* ARM CPU 160Mhz+, 320KB+ RAM
+* Wifi/Bluetooth
+* Can be integrated easily in custom PCBs
 
 ---
 
 # What About Raspberry Pi?
 
-(Image of a Raspberry Pi board)
-
-<!-- 
-* Linux and Windows not real time
-* Timings critical to be deterministic
--->
+* 1Ghz+ CPU / 512MB - 4GB RAM
+* Runs Linux
+* Not easily integrated into custom hardware
+* Normal operating systems are not real time
 
 ---
 
 # Peripherals
 
-(Images of different peripherals)
-
-<!--
-* Microcontrollers not usually useful on their own
-* Direct connections to other hardware make them useful
--->
+![sensors](/sensors.jpg)
 
 ---
 
 # Beyond the Hobbyist
 
-(Image of bread board and circuit board)
+![breadboard](/8bit-computer.jpg)
 
 <!--
 * Prototyped on breadboards, then usually integrated into PCBs
@@ -82,7 +77,7 @@ title: .Net For Embedded Development
 
 # Mainstream Embedded Programming Languages
 
-* C and C++ are the gold standard
+* C / C++ are the gold standard
 * Python used with some chips
 
 ---
@@ -99,34 +94,53 @@ title: .Net For Embedded Development
   * https://github.com/WildernessLabs/
 
 ---
+layout: two-cols
+---
 
 # Blinking an LED
 
-(Screenshot of code to blink the onboard LED)
+::right::
+<img src="/e01code.png" class="m-49 h-49" />
 
 ---
 
 # Blinking an LED
 
-(gif showing the LED blinking)
+<video src="/e01demo.mp4" type="video/mp4" autoplay loop></video>
 
+---
+layout: two-cols
 ---
 
 # Inputs and Outputs
 
-(Image of a meadow pinout diagram)
+::right::
+<img src="Meadow_F7v2_Micro_Pinout.svg" class="m-49 h-49"/>
+
+---
+layout: two-cols
+---
+
+# Simple I/O Example
+
+::right::
+![code](/e02code.png)
+
 
 ---
 
 # Simple I/O Example
 
-(Screenshot of code with input and LED)
+<video src="/e02demo.mp4" type="video/mp4" autoplay loop></video>
 
+---
+layout: two-cols
 ---
 
 # Simple I/O Example
 
-(Gif of pressing a button to trigger LED)
+::right::
+![code](/e02code-2.png)
 
 ---
 
@@ -202,4 +216,4 @@ Peripherals to the rescue!
 
 # Serial Peripheral Interface
 
-![spi](/img/SPI_three_slaves.png)
+![spi](/SPI_three_slaves.png)
