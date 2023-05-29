@@ -98,15 +98,10 @@ layout: two-cols
 ---
 
 # Blinking an LED
+<video src="/e01demo.mp4" type="video/mp4" autoplay loop></video>
 
 ::right::
-<img src="/e01code.png" class="m-49 h-49" />
-
----
-
-# Blinking an LED
-
-<video src="/e01demo.mp4" type="video/mp4" autoplay loop></video>
+![code](/e01code.png)
 
 ---
 layout: two-cols
@@ -115,44 +110,39 @@ layout: two-cols
 # Inputs and Outputs
 
 ::right::
-<img src="Meadow_F7v2_Micro_Pinout.svg" class="m-49 h-49"/>
+![pinout](Meadow_F7v2_Micro_Pinout.svg)
 
 ---
 layout: two-cols
 ---
 
 # Simple I/O Example
+<video src="/e02demo.mp4" type="video/mp4" autoplay loop></video>
 
 ::right::
 ![code](/e02code.png)
 
 
 ---
-
-# Simple I/O Example
-
-<video src="/e02demo.mp4" type="video/mp4" autoplay loop></video>
-
----
 layout: two-cols
 ---
 
 # Simple I/O Example
+![code](/e02code.png)
 
 ::right::
 ![code](/e02code-2.png)
 
 ---
-
-# Analog Example
-
-(Code to read analog input, trigger LEDs)
-
+layout: two-cols
 ---
 
 # Analog Example
+<video src="/e03demo.mp4" type="video/mp4" autoplay loop></video>
 
-(Gif of toggling pentameter)
+::right::
+![code](/e03code.png)
+
 
 ---
 
