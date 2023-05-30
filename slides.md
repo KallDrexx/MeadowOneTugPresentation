@@ -137,7 +137,16 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Analog Example
+# Analog Vs Digital Signals
+
+::right::
+![diagram](What-are-Analog-and-Digital-Signals.webp)
+
+---
+layout: two-cols
+---
+
+# Analog Input Example
 <video src="/e03demo.mp4" type="video/mp4" autoplay loop></video>
 
 ::right::
@@ -152,31 +161,21 @@ layout: two-cols
 
 ---
 
-# Motor Example
-
-(Gif of pentameter controlling motor)
-
----
-
 # Seven Segment Displays
 
 (Code to set 7 segment pins)
 
 ---
-
-# Seven Segment Displays
-
-(Image of 7 segment lit up)
-
+layout: two-cols
 ---
 
 # Running Out of I/O Ports
 
-What if we want more seven segment displays
+* What if we want more seven segment displays?
+* Peripherals to the rescue!
 
-(picture of instant pot)
-
-Peripherals to the rescue!
+::right::
+![instant pot](/InstantPot.jpg)
 
 ---
 
@@ -203,7 +202,10 @@ Peripherals to the rescue!
 <!-- This is slow and complicated for each bit -->
 
 ---
+layout: two-cols
+---
 
 # Serial Peripheral Interface
 
+::right::
 ![spi](/SPI_three_slaves.png)
