@@ -61,11 +61,15 @@ title: .Net For Embedded Development
 
 # Peripherals
 
+&nbsp;
+
 ![sensors](/sensors.jpg)
 
 ---
 
 # Beyond the Hobbyist
+
+&nbsp;
 
 ![breadboard](/8bit-computer.jpg)
 
@@ -98,25 +102,28 @@ layout: two-cols
 ---
 
 # Blinking an LED
+&nbsp;
+
 <video src="/e01demo.mp4" type="video/mp4" autoplay loop></video>
 
 ::right::
 ![code](/e01code.png)
 
 ---
-layout: two-cols
----
 
 # Inputs and Outputs
+&nbsp;
 
-::right::
-![pinout](Meadow_F7v2_Micro_Pinout.svg)
+<!-- ![pinout](Meadow_F7v2_Micro_Pinout.svg) -->
+<img src="/Meadow_F7v2_Micro_Pinout.svg" style="max-height:80%" />
 
 ---
 layout: two-cols
 ---
 
 # Simple I/O Example
+&nbsp;
+
 <video src="/e02demo.mp4" type="video/mp4" autoplay loop></video>
 
 ::right::
@@ -128,25 +135,31 @@ layout: two-cols
 ---
 
 # Simple I/O Example
+&nbsp;
+
 ![code](/e02code.png)
 
 ::right::
+
+# &nbsp;
+&nbsp;
+
 ![code](/e02code-2.png)
 
 ---
-layout: two-cols
----
 
 # Analog Vs Digital Signals
+&nbsp;
 
-::right::
-![diagram](What-are-Analog-and-Digital-Signals.webp)
+<img src="/What-are-Analog-and-Digital-Signals.webp" style="max-height:80%" />
 
 ---
 layout: two-cols
 ---
 
 # Analog Input Example
+&nbsp;
+
 <video src="/e03demo.mp4" type="video/mp4" autoplay loop></video>
 
 ::right::
@@ -205,7 +218,49 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Serial Peripheral Interface
+# Serial Peripheral Interface (SPI)
+
+* MOSI/COPI - Controller Output, Peripheral Input
+  * Data to be sent to peripheral
+* MISO/CIPO - Controller Input, Peripheral Output
+  * Data to be received from peripheral
+* CS - Chip Select
+  * Specifies which peripheral to talk to
+* SCLK - Clock Signal
+  * Synchronizes controller and peripeherals
+
+
+::right:: 
+![spi](/spi_single.png)
+&nbsp;
+
+![spi_signal](/spi_signal.png)
+
+---
+
+# Multiple SPI Devices
+
+&nbsp;
+
+![spi slaves](/spi_slaves.png)
+
+---
+layout: two-cols
+---
+
+
+# I<sup>2</sup>C
+
+* SDA - Serial Data Line
+* SCL - Serial Clock Line
+* Many controllers and peripherals with 2 wires
+* Each peripheral has a unique address
+  * Controller must know the correct address
+* No simultaneous read and write
+* Slower than SPI
+
 
 ::right::
-![spi](/SPI_three_slaves.png)
+![i2c](/I2C-Block-Diagram.jpg)
+
+![i2c frames](/i2c-frames.jpg)
