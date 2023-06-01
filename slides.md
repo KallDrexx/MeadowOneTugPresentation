@@ -191,28 +191,44 @@ layout: two-cols
 ![instant pot](/InstantPot.jpg)
 
 ---
-
-# How To Communicate With A Peripheral
-
-(Image of 1 wire from mcu box to meadow)
-
-<!-- How does the other side know when to read the value? -->
-
+layout: two-cols
 ---
 
 # How To Communicate With A Peripheral
 
-(Image above with latch pin added)
+* Send one bit at a time
+* How do we communicate two bits with the same value?
 
-<!-- How do we know when the other side has read? -->
+::right::
+![communication](/communication-1.png)
 
+---
+layout: two-cols
 ---
 
 # How To Communicate With A Peripheral
 
-(Image with complicated back and forth with acknowledgements)
+* Latch pin signals to peripheral it can read
+* Peripheral can only trust the value when latch is active
+* How do we know when the peripheral has read the bit?
+* How do we read a value?
 
-<!-- This is slow and complicated for each bit -->
+::right::
+![communication](/communication-2.png)
+
+---
+layout: two-cols
+---
+
+# How To Communicate With A Peripheral
+
+* Slow and complicated
+* Input and output latches not necessarily syncrhonized
+* No clear signal on either end to start
+* Not scalable to more peripherals
+
+::right::
+![communication](/communication-3.png)
 
 ---
 layout: two-cols
@@ -248,7 +264,6 @@ layout: two-cols
 layout: two-cols
 ---
 
-
 # I<sup>2</sup>C
 
 * SDA - Serial Data Line
@@ -264,3 +279,98 @@ layout: two-cols
 ![i2c](/I2C-Block-Diagram.jpg)
 
 ![i2c frames](/i2c-frames.jpg)
+
+---
+
+# Expanding I/O Example
+
+---
+
+# 14 Segment Display
+
+--- 
+
+# Weather Display
+
+---
+
+# Glade
+
+--- 
+
+# Use Cases
+
+---
+
+# Space Invaders Demo
+
+---
+
+# API-First Design
+
+---
+
+# Performance In The Beginning
+
+--- 
+
+# Profiling
+
+---
+
+# Initial Profiling Results
+
+---
+
+# Unexpected Casts
+
+---
+
+# Extra Logic In Getters
+
+---
+
+# Cache Friendlyness
+
+---
+
+# Generation 0 Garbage Collection
+
+---
+
+# More Efficient Sprite Drawing
+
+---
+
+# What Now?
+
+---
+
+# Layers
+
+---
+
+# SPI Efficiency
+
+---
+
+# MCP Pin State Performance
+
+---
+
+# Performance Today
+
+---
+
+# Performance Today
+
+---
+
+# Next Steps
+
+---
+
+# What About A GPU?
+
+
+
