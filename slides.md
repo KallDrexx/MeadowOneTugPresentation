@@ -9,7 +9,7 @@ drawings:
   persist: false
 # transition: slide-left
 # css: unocss
-# colorSchema: 'light'
+colorSchema: 'light'
 title: .Net For Embedded Development
 ---
 
@@ -293,20 +293,56 @@ layout: two-cols
 # Weather Display
 
 ---
+layout: two-cols
+---
 
-# Glade
+# Glade 
+&nbsp;
+
+&#128505; Game Loop <br />
+&#128505; Renderer <br />
+&#9746; Scene Graph <br />
+&#9744; Camera <br />
+&#9746; Animation <br />
+&#9746; Physics <br />
+&#9746; Input Manager <br />
+&#9744; Audio Engine <br />
+
+<br />
+&#128505; Exists today <br />
+&#9746; Partially implemented
+
+::right::
+![glade logo](/glade-logo.png)
+
+<img src="/glade-demo-1.png" style="max-height:200px" />
 
 --- 
 
 # Use Cases
+&nbsp;
+
+<img src="/glade-use-cases.png" style="max-height:400px" />
 
 ---
 
 # Space Invaders Demo
+&nbsp;
 
+<video src="/Glade Invade Scoreboard (2x speed).mp4" autoplay loop style="max-height:400px"></video>
+
+---
+layout: two-cols
 ---
 
 # API-First Design
+&nbsp;
+
+<img src="/composition.png" />
+
+::right::
+<img src="/scene-composition.png" />
+
 
 ---
 
