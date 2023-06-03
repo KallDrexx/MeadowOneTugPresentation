@@ -167,16 +167,30 @@ layout: two-cols
 
 
 ---
+layout: two-cols
+---
 
 # Motor Example
+&nbsp;
 
-(Code to control a motor based on an analog input)
+<video src="/e04demo.mp4" type="video/mp4" autoplay loop></video>
 
+::right::
+<br />
+<img src="/e04code.png" />
+
+---
+layout: two-cols
 ---
 
 # Seven Segment Displays
+&nbsp;
 
-(Code to set 7 segment pins)
+<img src="/e05code-1.png" style="max-height:200px" />
+<video src="/e05demo.mp4" type="video/mp4" autoplay loop></video>
+
+::right::
+<img src="/e05code-2.png" style="max-height:500px" />
 
 ---
 layout: two-cols
