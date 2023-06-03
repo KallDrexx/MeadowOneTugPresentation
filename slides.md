@@ -8,8 +8,8 @@ info: |
 drawings:
   persist: false
 # transition: slide-left
-# css: unocss
-colorSchema: 'light'
+css: unocss
+colorSchema: 'dark'
 title: .Net For Embedded Development
 ---
 
@@ -269,7 +269,7 @@ layout: two-cols
 * SDA - Serial Data Line
 * SCL - Serial Clock Line
 * Many controllers and peripherals with 2 wires
-* Each peripheral has a unique address
+* Each peripheral has a unique address!
   * Controller must know the correct address
 * No simultaneous read and write
 * Slower than SPI
@@ -279,6 +279,22 @@ layout: two-cols
 ![i2c](/I2C-Block-Diagram.jpg)
 
 ![i2c frames](/i2c-frames.jpg)
+
+---
+layout: two-cols
+---
+
+# CAN Communication Bus
+
+* Controller Area Network
+* Wiring setup used in cars
+* Any number of controllers
+
+::right::
+<img src="/can-bus.png" />
+
+<br />
+<img src="/can-bus-frames.png" />
 
 ---
 
@@ -343,18 +359,34 @@ layout: two-cols
 ::right::
 <img src="/scene-composition.png" />
 
-
 ---
 
 # Performance In The Beginning
 
 --- 
+layout: two-cols
+---
 
 # Profiling
+&nbsp;
+
+<img src="/profiling-example.png" style="max-height:400px" />
+
+::right::
+# &nbsp;
+&nbsp;
+
+<img src="/profiling-results.png" />
 
 ---
 
 # Initial Profiling Results
+
+* Frame Update - 1.4ms
+* Draw Sprites - 232ms
+* Scale - 104ms
+* Push To Display - 154ms
+* **Total Time** - 493ms
 
 ---
 
