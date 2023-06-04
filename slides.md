@@ -311,8 +311,16 @@ layout: two-cols
 <img src="/can-bus-frames.png" />
 
 ---
+layout: two-cols
+---
 
 # Expanding I/O Example
+&nbsp;
+
+<video src="/e06demo.mp4" type="video/mp4" autoplay loop></video>
+
+::right::
+<img src="/e06code.png" />
 
 ---
 
