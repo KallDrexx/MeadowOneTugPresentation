@@ -314,7 +314,7 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Expanding I/O Example
+# Expanding I/O Pins
 &nbsp;
 
 <video src="/e06demo.mp4" type="video/mp4" autoplay loop></video>
@@ -323,12 +323,28 @@ layout: two-cols
 <img src="/e06code.png" />
 
 ---
+layout: two-cols
+---
 
 # 14 Segment Display
+&nbsp;
+
+<img src="/e07demo.jpg" />
+
+::right::
+<img src="/e07code.png" style="max-height:500px" />
 
 --- 
+layout: two-cols
+---
 
-# Weather Display
+# Room Sensor Reading
+&nbsp;
+
+<img src="/e08demo.jpg" />
+
+::right::
+<img src="/e08code.png" />
 
 ---
 layout: two-cols
