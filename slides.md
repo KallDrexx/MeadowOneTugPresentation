@@ -379,6 +379,20 @@ layout: two-cols
 <img src="/glade-use-cases.png" style="max-height:400px" />
 
 ---
+layout: two-cols
+---
+
+# Examples 
+&nbsp;
+
+<video src="/glade-invade.mp4" autoplay loop style="max-height:400px"></video>
+
+::right::
+
+<br /><br /><br />
+<video src="/glade-platformer.mp4" autoplay loop style="max-height:400px"></video>
+
+---
 
 # Space Invaders Demo
 &nbsp;
@@ -401,6 +415,7 @@ layout: two-cols
 
 # Performance In The Beginning
 
+
 --- 
 layout: two-cols
 ---
@@ -420,51 +435,72 @@ layout: two-cols
 
 # Initial Profiling Results
 
-* Frame Update - 1.4ms
-* Draw Sprites - 232ms
-* Scale - 104ms
-* Push To Display - 154ms
-* **Total Time** - 493ms
+<img src="/glade-performance-chart.png" />
 
 ---
 
 # Unexpected Casts
 
+<img src="/glade-unexpected-casts.png" />
+
 ---
 
 # Extra Logic In Getters
+
+<img src="/glade-hidden-logic.png" />
 
 ---
 
 # Cache Friendlyness
 
+<img src="/glade-cache-friendliness.png" style="height:300px" />
+
 ---
 
 # Generation 0 Garbage Collection
+
+<img src="/glade-gc.png" style="height:400px" />
 
 ---
 
 # More Efficient Sprite Drawing
 
+* Direct buffer management
+* Byte aligned pixels
+* Rotations at the end
+* Utilize Array.Copy()
+* Using pointers instead of array indexes
+  * 20% boost just from this!
+
 ---
 
 # What Now?
+
+<img src="/glade-scene.png" />
 
 ---
 
 # Layers
 
+<img src="/glade-layers.png" />
+
 ---
 
 # SPI Efficiency
+
+<img src="/glade-spi.png" style="height:450px" />
 
 ---
 
 # MCP Pin State Performance
 
+<img src="/glade-mcp.png" style="height:450px" />
+
 ---
 
 # Performance Today
+
+<img src="/glade-chart-2.png" />
 
 ---
 
@@ -474,9 +510,14 @@ layout: two-cols
 
 # Next Steps
 
+* SPI performance improvements
+* Partial screen updates possible
+* Hardware based scrolling
+
 ---
 
 # What About A GPU?
 
+<img src="/rp2040.jpg" style="height:450px" />
 
 
