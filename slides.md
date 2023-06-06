@@ -137,12 +137,11 @@ layout: two-cols
 # Simple I/O Example
 &nbsp;
 
-![code](/e02code.png)
+<!-- <video src="/e02demo.mp4" type="video/mp4" autoplay loop></video> -->
+* Taking better advantage of C# with events!
+
 
 ::right::
-
-# &nbsp;
-&nbsp;
 
 ![code](/e02code-2.png)
 
