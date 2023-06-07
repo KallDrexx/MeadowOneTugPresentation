@@ -454,7 +454,7 @@ layout: two-cols
 
 # Cache Friendlyness
 
-<img src="/glade-cache-friendliness.png" style="height:300px" />
+<img src="/cache.png" style="height:400px" />
 
 ---
 
