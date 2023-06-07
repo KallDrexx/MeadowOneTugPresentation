@@ -9,7 +9,7 @@ drawings:
   persist: false
 # transition: slide-left
 css: unocss
-colorSchema: 'dark'
+colorSchema: 'light'
 title: .Net For Embedded Development
 ---
 
@@ -413,7 +413,9 @@ layout: two-cols
 ---
 
 # Performance In The Beginning
+&nbsp;
 
+<video src="/lowfps.mp4" autoplay loop style="max-height:400px"></video>
 
 --- 
 layout: two-cols
@@ -504,6 +506,9 @@ layout: two-cols
 ---
 
 # Performance Today
+&nbsp;
+
+<video src="/nowfps.mp4" autoplay loop style="max-height:400px"></video>
 
 ---
 
