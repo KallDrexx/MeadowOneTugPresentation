@@ -396,7 +396,7 @@ layout: two-cols
 # Space Invaders Demo
 &nbsp;
 
-<video src="/Glade Invade Scoreboard (2x speed).mp4" autoplay loop style="max-height:400px"></video>
+<video src="/scoreboard-demo.mp4" autoplay loop style="max-height:400px"></video>
 
 ---
 layout: two-cols
