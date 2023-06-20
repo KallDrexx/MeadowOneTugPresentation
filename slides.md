@@ -310,6 +310,13 @@ layout: two-cols
 <img src="/can-bus-frames.png" />
 
 ---
+
+# Debugging
+&nbsp;
+
+<img src="SPI_02_ZoomIn.png" style="max-height:400px" />
+
+---
 layout: two-cols
 ---
 
